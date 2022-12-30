@@ -60,5 +60,8 @@ export const PaymentMethodOptionsContainer = styled.div`
 
     @media(max-width: 520px) {
         grid-template-columns: repeat(1, 1fr);
+        > p {
+            grid-column: span 1;
+        }
     }
 `
