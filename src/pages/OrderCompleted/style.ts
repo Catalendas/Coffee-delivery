@@ -17,7 +17,7 @@ export const OrderConfirmedContainer = styled.div`
     }
 
     @media(max-width: 520px) {
-        width: 360px;
+        width: 100%;
         padding: 1rem;
 
         > section {
@@ -49,6 +49,10 @@ export const OrderDetailsContainer = styled.div`
         z-index: -1;
         border-radius: 7px 37px 7px 37px;
         background: linear-gradient(102.89deg, #DBAC2C 2.61%, #8847F8 98.76%);
+    }
+
+    @media(max-width: 520px) {
+        min-width: 25rem;
     }
 
 `
