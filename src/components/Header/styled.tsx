@@ -19,7 +19,6 @@ export const HeaderContainer = styled.header`
     }
 
     @media(max-width: 520px) {
-        width: 391px;
 
         > div {
             display: flex;
